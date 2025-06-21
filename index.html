@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redes Sociales en Educación Básica - Marisol Oliver Trejo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header {
+            background: white;
+            padding: 40px 0;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .header-content {
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        h1 {
+            color: #212529;
+            font-size: 2.2em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .author {
+            color: #6c757d;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        .description {
+            color: #495057;
+            font-size: 1em;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        nav {
+            background: white;
+            padding: 20px 0;
+            margin-bottom: 40px;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .nav-menu {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .nav-menu li a {
+            text-decoration: none;
+            color: #495057;
+            font-weight: 400;
+            padding: 8px 0;
+            transition: color 0.3s ease;
+            border-bottom: 2px solid transparent;
+        }
+
+        .nav-menu li a:hover {
+            color: #212529;
+            border-bottom: 2px solid #212529;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+            margin-bottom: 60px;
+        }
+
+        .content-card {
+            background: white;
+            padding: 40px;
+            border: 1px solid #e9ecef;
+            transition: box-shadow 0.3s ease;
+        }
+
+        .content-card:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .content-card h2 {
+            color: #212529;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+            font-weight: 400;
+            border-bottom: 1px solid #e9ecef;
+            padding-bottom: 10px;
+        }
+
+        .content-card p {
+            margin-bottom: 16px;
+            text-align: left;
+        }
+
+        .content-card ul {
+            margin-left: 20px;
+            margin-bottom: 16px;
+        }
+
+        .content-card li {
+            margin-bottom: 8px;
+        }
+
+        .video-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .video-placeholder {
+            background: #f8f9fa;
+            color: #6c757d;
+            padding: 40px 20px;
+            border: 2px dashed #dee2e6;
+            font-size: 1em;
+            margin: 20px 0;
+        }
+
+        .image-placeholder {
+            background: #f8f9fa;
+            color: #6c757d;
+            padding: 60px 20px;
+            border: 2px dashed #dee2e6;
+            font-size: 1em;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .external-link {
+            display: inline-block;
+            background: #212529;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            margin-top: 15px;
+            transition: background 0.3s ease;
+            font-weight: 400;
+        }
+
+        .external-link:hover {
+            background: #495057;
+        }
+
+        footer {
+            background: white;
+            text-align: center;
+            padding: 40px;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .footer-content {
+            color: #7f8c8d;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            .nav-menu {
+                flex-direction: column;
+                align-items: center;
+                gap: 15px;
+            }
+            
+            main {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+            
+            .content-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <h1>El Uso de las Redes Sociales en Educación Básica</h1>
+                <p class="author">Por: Marisol Oliver Trejo</p>
+                <p class="description">
+                    Explorando el impacto y las oportunidades de las redes sociales como herramientas educativas en el nivel básico, 
+                    analizando sus beneficios, desafíos y mejores prácticas para su implementación efectiva.
+                </p>
+            </div>
+        </header>
+
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#desafios">Desafíos</a></li>
+                <li><a href="#herramientas">Herramientas</a></li>
+                <li><a href="#recursos">Recursos</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section class="content-card" id="inicio">
+                <h2>Introducción</h2>
+                <p>
+                    Las redes sociales han transformado la manera en que nos comunicamos y compartimos información. 
+                    En el contexto educativo, estas plataformas ofrecen oportunidades únicas para mejorar el proceso 
+                    de enseñanza-aprendizaje en la educación básica.
+                </p>
+                <p>
+                    Este sitio web explora cómo los educadores pueden aprovechar las redes sociales de manera 
+                    responsable y efectiva para enriquecer la experiencia educativa de sus estudiantes.
+                </p>
+                <div class="video-placeholder">
+                    🎥 Video: Introducción a las Redes Sociales en Educación
+                    <br><small>Contenido multimedia educativo</small>
+                </div>
+            </section>
+
+            <section class="content-card" id="beneficios">
+                <h2>Beneficios Educativos</h2>
+                <ul>
+                    <li><strong>Comunicación mejorada:</strong> Facilita la interacción entre estudiantes, profesores y padres</li>
+                    <li><strong>Colaboración:</strong> Promueve el trabajo en equipo y proyectos colaborativos</li>
+                    <li><strong>Creatividad:</strong> Permite expresar ideas de formas innovadoras y multimedia</li>
+                    <li><strong>Acceso a información:</strong> Conecta con recursos educativos globales</li>
+                    <li><strong>Motivación:</strong> Utiliza herramientas familiares para los estudiantes</li>
+                </ul>
+                <div class="image-placeholder">
+                    📱 Imagen: Estudiantes colaborando en redes sociales
+                    <br><small>Representación visual del aprendizaje colaborativo</small>
+                </div>
+            </section>
+
+            <section class="content-card" id="desafios">
+                <h2>Desafíos y Consideraciones</h2>
+                <p>
+                    El uso de redes sociales en educación también presenta desafíos importantes que deben ser abordados:
+                </p>
+                <ul>
+                    <li>Privacidad y seguridad digital</li>
+                    <li>Cyberbullying y comportamiento inapropiado</li>
+                    <li>Distracción y uso excesivo</li>
+                    <li>Brecha digital entre estudiantes</li>
+                    <li>Necesidad de supervisión y guía adulta</li>
+                </ul>
+                <p>
+                    Es fundamental establecer políticas claras y educar sobre el uso responsable de estas herramientas.
+                </p>
+            </section>
+
+            <section class="content-card" id="herramientas">
+                <h2>Herramientas Recomendadas</h2>
+                <p>Algunas plataformas educativas y redes sociales apropiadas para educación básica:</p>
+                <ul>
+                    <li><strong>Edmodo:</strong> Red social educativa específicamente diseñada para escuelas</li>
+                    <li><strong>Google Classroom:</strong> Plataforma de aprendizaje con funciones sociales</li>
+                    <li><strong>Padlet:</strong> Muro virtual colaborativo</li>
+                    <li><strong>Flipgrid:</strong> Plataforma de video discusiones</li>
+                    <li><strong>Kidblog:</strong> Plataforma de blogs para estudiantes jóvenes</li>
+                </ul>
+                <a href="#" class="external-link">🔗 Enlace a recursos adicionales</a>
+            </section>
+
+            <section class="content-card" id="recursos">
+                <h2>Recursos Adicionales</h2>
+                <p>
+                    Para profundizar en el tema, se recomienda consultar las siguientes fuentes especializadas 
+                    en tecnología educativa y uso responsable de redes sociales en el ámbito educativo.
+                </p>
+                <div class="video-placeholder">
+                    🎥 Video Tutorial: Configuración segura de redes sociales para uso educativo
+                    <br><small>Guía práctica para educadores</small>
+                </div>
+                <p>
+                    <strong>Autor:</strong> Marisol Oliver Trejo<br>
+                    <strong>Especialización:</strong> Tecnología Educativa y Redes Sociales en Educación Básica
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p>&copy; 2025 - Marisol Oliver Trejo</p>
+                <p>Sitio web educativo sobre el uso de redes sociales en educación básica</p>
+                <p>Creado como material de apoyo para la actividad académica</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
